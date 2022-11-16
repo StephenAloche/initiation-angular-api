@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "firstname": "test",
+        "lastname": "guest",
+        "habilitation": 1,
+        "login": "guest",
+        "password": "guest",
+        "activation": false
+    },
+    {
+        "id": 2,
+        "firstname": "test",
+        "lastname": "admin",
+        "habilitation": 0,
+        "login": "root",
+        "password": "root",
+        "activation": false
+    }
+]
