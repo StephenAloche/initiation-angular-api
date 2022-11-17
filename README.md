@@ -55,6 +55,7 @@ Il faudra ensuite modifier le app-routing.module et créer un guard de sorte à 
 - Guard (utilisation de la méthode canActivate): https://angular.io/api/router/CanActivate
 - Tutoriel navigation: https://angular.io/guide/router-tutorial
 - Router (documentation du module): https://angular.io/api/router/Router
+- Card Material: https://material.angular.io/components/card/overview
 
 ### Routes Api à utiliser
 - [POST] "/login" ==> Retourne l'utilisateur correspondant ou une erreur si l'utilisateur n'existe pas
@@ -72,25 +73,79 @@ Cette route devra être protégé via un AdministratorGuard de sorte à ce qu'il
 
 ### Liens utiles
 - Tutoriel Services: https://angular.io/guide/http
+- Tableau Material: https://material.angular.io/components/table/overview
 
 ### Routes Api à utiliser
 - [GET] "/users"
 - [POST] "/users/:id/habilitation"
 
 ## Etape n°3 - Gestion des équipes
-**TODO**
+
+Cette étape consiste à créer un écran pour créer les équipes.
+
+Cette fonctionnalité sera reserver aux admins uniquement et devra permettre d'afficher une liste d'équipe, d'en modifier, d'en supprimer et d'en ajouter via un formulaire.
+
+### Routes Api à utiliser
+- [GET] "/teams"
+- [POST] "/teams"
+- [PUT] "/teams"
+- [DELETE] "/teams"
+
+### Liens utiles
+- Tutoriel Services: https://angular.io/guide/http
+- Tableau Material: https://material.angular.io/components/table/overview
 
 ## Etape n°4 - Gestion des matchs
-**TODO**
+Comme pour l'étape 3 on souhaite pouvoir faire une gestion des matchs.
+
+Cette fonctionnalité sera réservé au mode admins
+
+Il sera psosible d'ajotuer, modifer et supprimer des matchs
+
+### Liens utiles
+- Tutoriel Services: https://angular.io/guide/http
+- Tableau Material: https://material.angular.io/components/table/overview
+
+### Routes Api à utiliser
+- [GET] "/matchs"
+- [POST] "/matchs"
+- [PUT] "/matchs"
+- [DELETE] "/matchs"
 
 ## Etape n°5 - Gestion des pronostiques
-**TODO**
+Cette étape consiste en la mise en place de pronostiques.
+
+Cette écran sera accessible à tous les utilisateurs et devra permettre de voir une liste de carte pour les différents matchs programmés.
+Pour chacun des rencontre, une code devra apparaitre pour le cas de victoire de l'équipe A, de match nul entre les deux équipes ou de victoire de l'équipe B.
+
+3 boutons devrons être mis en place pour permettre le pronostique
+
+Au chargement de l'écran, l'affichage devra mettre en avant les pronostiques déjà enregistrés
+
+### Liens utiles
+- Tutoriel Services: https://angular.io/guide/http
+- Card Material: https://material.angular.io/components/card/overview
 
 ## Etape n°6 - Mise en place du lazy loading (module admin / module pronostique)
-**TODO**
+Cette partie consiste en une optimisation de performance de l'application.
+
+Du lazy-loading devra être mis en place pour faire en sorte que les différents modules (administration, pronostiques) ne soient chargés que si nécessaire.
+
+### Liens utiles
+- Tutorial Lazy-loading: https://angular.io/guide/lazy-loading-ngmodules
 
 ## Etape n°7 - Mise en place tests unitaires
-**TODO**
+Cette étape consistera en l'implémentation des tests unitaires de notre application.
+
+Pour se faire, je vous invites à jeter un oeil à la documentation suivante: https://jasmine.github.io/pages/docs_home.html
+
+Il sera possible d'executer nos tests à l'aide de la méthode `npm run test`
+
+Dans un optique d'éviter les effets de bords des tests unitaires, il vous faudra mocker les méthodes des services à l'aide des propriétés spyOn de jasmine.
+
+**Cette section sera à compléter**
 
 ## Etape n°8 - Mise en place NgRx
-**TODO**
+Cette étape sera plus une initiation au fonctionnement de NgRx.
+
+A noter que l'implémentation de store management est à faire que dans certains cas **et n'est en aucun cas la règle générale**.
