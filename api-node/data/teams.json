@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "France",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_of_France_%28lighter_variant%29.svg"
+    },
+    {
+        "id": 2,
+        "name": "Espagne",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1920px-Bandera_de_Espa%C3%B1a.svg.png"
+    },
+    {
+        "id": 3,
+        "name": "Allemagne",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1920px-Flag_of_Germany.svg.png"
+    },
+    {
+        "id": 4,
+        "name": "Portugal",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+    },
+    {
+        "id": 5,
+        "name": "Angleterre",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg"
+    },
+    {
+        "id": 6,
+        "name": "Croatie",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+    },
+    {
+        "id": 7,
+        "name": "Suisse",
+        "flagUrl": "https://cdn.britannica.com/43/4543-004-C0D5C6F4/Flag-Switzerland.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Pologne",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1920px-Flag_of_Poland.svg.png"
+    },
+    {
+        "id": 9,
+        "name": "Qatar",
+        "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/1920px-Flag_of_Qatar.svg.png"
+    }
+]

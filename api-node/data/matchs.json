@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "teamAId": 1,
+        "testBId": 2,
+        "startDate": "2022-11-21T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 2,
+        "teamAId": 1,
+        "testBId": 3,
+        "startDate": "2022-11-22T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 3,
+        "teamAId": 1,
+        "testBId": 4,
+        "startDate": "2022-11-23T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 4,
+        "teamAId": 2,
+        "testBId": 3,
+        "startDate": "2022-11-24T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 5,
+        "teamAId": 2,
+        "testBId": 4,
+        "startDate": "2022-11-25T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 6,
+        "teamAId": 3,
+        "testBId": 4,
+        "startDate": "2022-11-26T17:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 7,
+        "teamAId": 5,
+        "testBId": 6,
+        "startDate": "2022-11-21T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 8,
+        "teamAId": 5,
+        "testBId": 7,
+        "startDate": "2022-11-22T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 9,
+        "teamAId": 5,
+        "testBId": 8,
+        "startDate": "2022-11-23T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 10,
+        "teamAId": 6,
+        "testBId": 7,
+        "startDate": "2022-11-24T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 11,
+        "teamAId": 6,
+        "testBId": 8,
+        "startDate": "2022-11-25T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    },
+    {
+        "id": 12,
+        "teamAId": 7,
+        "testBId": 8,
+        "startDate": "2022-11-26T19:24:06.082Z",
+        "scoreTeamA": 0,
+        "scoreTeamB": 0
+    }
+]
