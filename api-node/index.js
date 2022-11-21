@@ -84,7 +84,7 @@ app.delete('/teams/:id', (req, res) => {
 /**
  * Match's routes
  */
- app.get('/matchs', (req, res) => {
+app.get('/matchs', (req, res) => {
     res.status(200).json(matchs)
 });
 
@@ -116,8 +116,20 @@ app.delete('/matchs/:id', (req, res) => {
 /**
  * Pronostic's routes
  */
- app.get('/pronostics', (req, res) => {
+app.get('/pronostics', (req, res) => {
     res.status(200).json(pronostics)
+});
+
+app.get('/pronostics/:userId', (req, res) => {
+    let usersPronostics = pronostics.filter((prono) => prono.userId === parseInt(req.params.userId, 10));
+    usersPronostics.map((prono) => {
+        prono.match = matchs.find((match) => match.id === prono.matchId);
+        if (prono.match) {
+            prono.match.teamA = teams.find((team) => team.id === prono.match.teamAId);
+            prono.match.teamB = teams.find((team) => team.id === prono.match.teamBId);
+        }
+    });
+    res.status(200).json(usersPronostics)
 });
 
 app.post('/pronostics', (req, res) => {

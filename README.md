@@ -77,7 +77,7 @@ Cette route devra être protégé via un AdministratorGuard de sorte à ce qu'il
 
 ### Routes Api à utiliser
 - [GET] "/users"
-- [POST] "/users/:id/habilitation"
+- [PUT] "/users/:id/habilitation"
 
 ## Etape n°3 - Gestion des équipes
 
@@ -89,7 +89,7 @@ Cette fonctionnalité sera reserver aux admins uniquement et devra permettre d'a
 - [GET] "/teams"
 - [POST] "/teams"
 - [PUT] "/teams"
-- [DELETE] "/teams"
+- [DELETE] "/teams/:id"
 
 ### Liens utiles
 - Tutoriel Services: https://angular.io/guide/http
@@ -110,7 +110,7 @@ Il sera psosible d'ajotuer, modifer et supprimer des matchs
 - [GET] "/matchs"
 - [POST] "/matchs"
 - [PUT] "/matchs"
-- [DELETE] "/matchs"
+- [DELETE] "/matchs/:id"
 
 ## Etape n°5 - Gestion des pronostiques
 Cette étape consiste en la mise en place de pronostiques.
@@ -125,6 +125,11 @@ Au chargement de l'écran, l'affichage devra mettre en avant les pronostiques d�
 ### Liens utiles
 - Tutoriel Services: https://angular.io/guide/http
 - Card Material: https://material.angular.io/components/card/overview
+
+### Routes Api à utiliser
+- [GET] "/pronostics"
+- [GET] "/pronostics/:userId"
+- [PUT] "/pronostics" **Work In Progress...**
 
 ## Etape n°6 - Mise en place du lazy loading (module admin / module pronostique)
 Cette partie consiste en une optimisation de performance de l'application.
@@ -149,3 +154,5 @@ Dans un optique d'éviter les effets de bords des tests unitaires, il vous faudr
 Cette étape sera plus une initiation au fonctionnement de NgRx.
 
 A noter que l'implémentation de store management est à faire que dans certains cas **et n'est en aucun cas la règle générale**.
+
+**Cette section sera à compléter**
