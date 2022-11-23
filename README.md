@@ -155,4 +155,4 @@ Cette étape sera plus une initiation au fonctionnement de NgRx.
 
 A noter que l'implémentation de store management est à faire que dans certains cas **et n'est en aucun cas la règle générale**.
 
-**Cette section sera à compléter**
+**Cette section sera à compléter**# initiation-angular-api
