@@ -94,5 +94,13 @@
         "startDate": "2022-11-26T19:24:06.082Z",
         "scoreTeamA": 0,
         "scoreTeamB": 0
+    },
+    {
+        "id": 13,
+        "teamAId": 2,
+        "teamBId": 8,
+        "startDate": "2022-12-26T19:24:06.082Z",
+        "scoreTeamA": 1,
+        "scoreTeamB": 0
     }
 ]
